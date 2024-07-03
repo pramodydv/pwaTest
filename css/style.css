@@ -1,0 +1,136 @@
+:root {
+    --body-bg: #080D1B;
+    --text-default: #fff;
+    --primary-color: #5F0AFF;
+    --secondary-color: #212532;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans Regular';
+    color: var(--text-default);
+    background-color: var(--body-bg);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+}
+.text-white{
+    color: var(--text-default);
+}
+.text-underline{
+    text-decoration: underline;
+}
+.m-0{
+    margin: 0;
+}
+.fw-500{
+    font-weight: 500;
+}
+.font16{
+    font-size: 16px;
+}
+.text-center{
+    text-align: center;
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+.flex-shrink-0{
+    flex-shrink: 0;
+}
+.hv-100{
+    height: 100vh;
+}
+.h-100{
+    height: 100%;
+}
+.wv-100{
+    width: 100vw;
+}
+.w-100{
+    width: 100%;
+}
+.postion-relative{
+    position: relative;
+}
+.main{
+    width: 100%;
+    position: relative;
+}
+.pageContainer {
+    max-width: 430px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.mainContent{
+    position: relative;
+    width: 100%;
+}
+.noScroll{
+    width: 100%;
+    height: 100vh;
+}
+.imgLink{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-auto{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.signupForm{
+    padding: 50px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 100px);
+}
+.footContent-text{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.headerBack{
+    width: 100%;
+    position: relative;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.backBtn{
+    position: absolute;
+    left: -8px;
+    top: 17px;
+}
+.formGroup{
+    width: 100%;
+    position: relative;
+    margin-bottom: 16px;
+}
+.formGroup label{
+    margin-bottom: 4px;
+}
+.formGroup input[type="text"]{
+    width: 100%;
+    min-height: 52px;
+    border-radius: 10px;
+    background: var(--secondary-color);
+}
